@@ -1,0 +1,11 @@
+I:\2022-2\143\Codigos\Patito-1\Patito-1\bin\Debug\netcoreapp2.1\Patito-1.deps.json
+I:\2022-2\143\Codigos\Patito-1\Patito-1\bin\Debug\netcoreapp2.1\Patito-1.runtimeconfig.json
+I:\2022-2\143\Codigos\Patito-1\Patito-1\bin\Debug\netcoreapp2.1\Patito-1.runtimeconfig.dev.json
+I:\2022-2\143\Codigos\Patito-1\Patito-1\bin\Debug\netcoreapp2.1\Patito-1.dll
+I:\2022-2\143\Codigos\Patito-1\Patito-1\bin\Debug\netcoreapp2.1\Patito-1.pdb
+I:\2022-2\143\Codigos\Patito-1\Patito-1\obj\Debug\netcoreapp2.1\Patito-1.csprojAssemblyReference.cache
+I:\2022-2\143\Codigos\Patito-1\Patito-1\obj\Debug\netcoreapp2.1\Patito-1.csproj.CoreCompileInputs.cache
+I:\2022-2\143\Codigos\Patito-1\Patito-1\obj\Debug\netcoreapp2.1\Patito-1.AssemblyInfoInputs.cache
+I:\2022-2\143\Codigos\Patito-1\Patito-1\obj\Debug\netcoreapp2.1\Patito-1.AssemblyInfo.cs
+I:\2022-2\143\Codigos\Patito-1\Patito-1\obj\Debug\netcoreapp2.1\Patito-1.dll
+I:\2022-2\143\Codigos\Patito-1\Patito-1\obj\Debug\netcoreapp2.1\Patito-1.pdb

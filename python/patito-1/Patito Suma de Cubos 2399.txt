@@ -1,0 +1,17 @@
+cases = int(input())
+for _ in range(cases):
+    n = int(input())
+    sw = False
+    i = 0
+    j = 0
+    k = 0
+    for _ in range(i < n):
+        for _ in range(j <= n):
+            for _ in range(k <= n):
+                if (i * i * i + j * j * j + k * k * k == n):
+                    sw = True
+                    break
+    if sw:
+        print(n,' se puede expresar como la suma de 3 cubos')
+    else:
+        print(n,' no se puede expresar como la suma de 3 cubos')
