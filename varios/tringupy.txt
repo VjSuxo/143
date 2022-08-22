@@ -1,0 +1,20 @@
+sw1,sw2,sw3=True,True,True
+a,b,c=0,0,0
+n=int(input())
+for i in range(0,n):
+  x=float(input())
+  if(sw1==True):
+    sw1=False
+    a=x
+  elif(sw2==True):
+    sw2=False
+    b=x
+  else:
+    sw1=sw2=True
+    c=x
+    ans=((a**2+b**2+c**2)**2)-2*(a**4+b**4+c**4)
+    if(ans<=0):
+      print("No hay area")
+    else:
+      ans=(1/4)*(ans**(1/2))
+      print(f"Area: {ans :.6f}")

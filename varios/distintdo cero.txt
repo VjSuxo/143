@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package patito2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author victo
+ */
+public class adn {
+    public static int[][] acc= new int[200010][18];
+    public static void init(){
+    
+        for (int j = 0; j < 18;j++) {
+            int suma = 0;
+            for (int i = 1; i < 200010; i++) {
+                if((i&(1<<j))>0){
+                    suma+=1;
+                }
+                acc[i][j]=suma;
+            }
+        }   
+        
+    }
+    
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int t= sc.nextInt();
+        init();
+        
+        while(t-->0){
+            int l = sc.nextInt();
+            int r = sc.nextInt();
+            int ans=0;
+            for (int i = 0; i < 18; i++) {
+                ans=Math.max(ans,acc[r][i]-acc[l-1][i]);
+            }
+            System.out.println(((r-l+1)-ans));
+            
+        }
+    }
+    
+}

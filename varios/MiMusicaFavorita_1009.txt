@@ -1,0 +1,30 @@
+cases = int(input())
+while --cases > 0:
+    duracion = int(input())
+    n = int(input())
+    p = [n]
+    for i in range(n):
+        p[i] = int(input())
+
+    duracionMaxima = 0
+    for mask in range(mask < (1 << n)):
+        suma = 0
+        for i in range(n):
+            if (mask & (1 << i)) > 0:
+                sum += p[i]
+        if sum <= duracion:
+            duracionMaxima = max(duracionMaxima, sum)
+    for _ in range (mask =(1<<n)): # verificar
+        sum = 0
+        res = [int]
+        for i in range (n):
+            if (mask & (1<<i))>0:
+                sum += p[i]
+                res.append(p[i])
+        if sum == duracionMaxima:
+            for i in range(len(res)):
+                if (len(res))-1==i:
+                    print(res[i])
+                else:
+                    print(res[i], "")
+            break

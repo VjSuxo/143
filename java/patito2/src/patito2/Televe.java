@@ -11,14 +11,9 @@ import java.util.Scanner;
  *
  * @author victo
  */
-public class Patito2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-      Scanner sc = new Scanner(System.in);
+public class Televe {
+    public void SOl(){
+        Scanner sc = new Scanner(System.in);
         int n=0,m=0;
         //lee la cantidad de filas que tendra la matriz
         n=sc.nextInt();
@@ -34,12 +29,16 @@ public class Patito2 {
                 matriz[i][j]=sc.nextInt();
             }
         }
+        
         int x=0,suma=0;
-        for (int i = 0; i < n; i++) {
-            for (int j = x; j < m-1; j++) {
-                suma+=matriz[i][j];
+        //
+        for (int i = 0; i < m; i++) {
+            for (int j = x; j < n; j++) {
+                suma+=matriz[j][i];
             }
         }
         System.out.println(suma);
+    
     }
+    
 }

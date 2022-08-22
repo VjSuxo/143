@@ -1,0 +1,19 @@
+def siPalindrome(cadena, tamanio):  
+    for i in range(tamanio // 2):
+        if cadena[i] != cadena[tamanio - i - 1]:
+            return False
+    return True
+
+
+while True:
+    s = input().strip()
+    tamanio = len(s)
+    if s == 'END':
+        break
+    i = 0
+    while True:
+        if siPalindrome(s[i: tamanio], tamanio - i):
+            break
+        i += 1
+    noPalindrome = s[0: i]
+    print(s + noPalindrome[::-1])
