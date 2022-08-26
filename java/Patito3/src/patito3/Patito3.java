@@ -25,11 +25,18 @@ public class Patito3 {
 //        }
 //        System.out.println("NUmero :"+x);
 
+//
+//        ProblemaH_Generar2Numeros sol = new ProblemaH_Generar2Numeros();
+//        sol.Solucion();
 
-        ProblemaH_Generar2Numeros sol = new ProblemaH_Generar2Numeros();
-        sol.Solucion();
-        
-        
+//ProblemaD_Four_Lotes p = new ProblemaD_Four_Lotes();
+//p.Solucion();
+//        
+//        
+   //     ProblemaB_PoligonosRegularos s = new ProblemaB_PoligonosRegularos();
+    //    s.Solucion();
+    ProblemaJ_Combinacion c = new ProblemaJ_Combinacion();
+    c.Solucion();
     }
     
 }
